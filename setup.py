@@ -7,8 +7,8 @@ setup(
     name='broadcycle',
     version='0.0.1',
     install_requires=[
+        'sqlalchemy',
         'aioredis',
-        'aioipfs',
         'async-timeout<4.0,>=3.0',
         'fastapi',
         'spacy',
